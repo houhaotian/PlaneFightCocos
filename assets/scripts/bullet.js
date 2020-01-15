@@ -12,25 +12,23 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+     
     },
-    
-    backgroundMoveAction: function () {
-        var move1 = cc.moveBy(3, 0, -this.node.height);
-        var move2 = cc.moveBy(0, 0, this.node.height);
-        var se = cc.sequence(move1, move2);
-        return cc.repeatForever(se);
+
+    setMove: function() {
+        let action = cc.moveBy(1, cc.v2(0, 500));
+        return cc.repeatForever(action);
     },
 
     // LIFE-CYCLE CALLBACKS:
-     onLoad() { 
-         this.originalY = this.node.y;
-     }, 
-   
+
+    // onLoad() { },
+
     start () {
-        this.node.runAction(this.backgroundMoveAction());
+        this.node.runAction(this.setMove());
     },
 
-    update(dt) {
-       
-    },
+     update (dt) {
+         
+     },
 });
