@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "img_bullet",
+    "_name": "hero_bullet",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -51,8 +51,8 @@
       "__type__": "TypedArray",
       "ctor": "Float32Array",
       "array": [
-        257.2300109863281,
-        196.9770050048828,
+        141,
+        358,
         0,
         0,
         0,
@@ -109,7 +109,7 @@
     "_id": ""
   },
   {
-    "__type__": "17d6dmiY6VL7pkncyo+0pyz",
+    "__type__": "69ce4LiD9pIBLD3VSizE2J9",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -126,7 +126,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "08OaBMUT1N6ITgzJozTlAW",
+    "fileId": "b0wadlI+tKHYI0apLbfdA3",
     "sync": false
   }
 ]

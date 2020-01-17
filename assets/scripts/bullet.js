@@ -12,10 +12,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-     
+
     },
 
-    setMove: function() {
+    setMove: function () {
         let action = cc.moveBy(1, cc.v2(0, 500));
         return cc.repeatForever(action);
     },
@@ -24,11 +24,11 @@ cc.Class({
 
     // onLoad() { },
 
-    start () {
+    start() {
         this.node.runAction(this.setMove());
     },
 
-     update (dt) {
-         
-     },
+    // update(dt) {  
+
+    // },
 });
